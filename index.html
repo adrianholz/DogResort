@@ -8,33 +8,42 @@
   <title>DogResort | Daycare e Creche para Cachorros</title>
   <meta name="description" content="A DogResort oferece serviços que promovem a melhor experiência para seu cão, incluindo daycare, hospedagem, estética animal e natação, garantindo sempre a saúde e o bem-estar canino.">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@400;600;700&family=Noto+Sans+Tamil:wght@500;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
   <header>
-    <div>
-      <img src="img/DogResort.webp" alt="DogResort">
-      <span><strong>Dog</strong>Resort</span>
+    <div class="header-inner">
+      <div class="header-logo">
+        <img src="img/DogResort.webp" alt="DogResort">
+        <span><strong>Dog</strong>Resort</span>
+      </div>
+      <div class="header-content">
+        <a href="#">Login</a>
+        <button aria-controls="menu" class="menu-toggle"></button>
+      </div>
     </div>
-    <a href="#">Login</a>
-    <button aria-controls="menu"></button>
   </header>
 
-  <div>
+  <div class="overlay"></div>
+
+  <div class="off-canvas">
     <nav aria-label="primária">
       <ul>
-        <li>DogResort
-          <ul>
+        <li><span class="title-item menu-clickable">DogResort</span>
+          <ul class="menu-showable">
             <li>Sobre Nós</li>
             <li>Estrutura</li>
             <li>Equipe</li>
           </ul>
         </li>
-        <li>Serviços
-          <ul>
-            <li>Daycare
-              <ul>
+        <li><span class="title-item menu-clickable">Serviços</span>
+          <ul class="menu-showable">
+            <li><span class="menu-clickable">Daycare</span>
+              <ul class="menu-showable nested-menu">
                 <li>Informações Gerais</li>
                 <li>Regras do Daycare</li>
               </ul>
@@ -42,18 +51,18 @@
             <li>Hospedagem</li>
             <li>Banho e Tosa</li>
             <li>Natação</li>
-            <li>DogPrevent
-              <ul>
+            <li><span class="menu-clickable">DogPrevent</span>
+              <ul class="menu-showable nested-menu">
                 <li>Informações Gerais</li>
                 <li>Terapias e Tratamentos</li>
               </ul>
             </li>
           </ul>
         </li>
-        <li>DogCam</li>
-        <li>Blog</li>
-        <li>Depoimentos</li>
-        <li>Fale Conosco</li>
+        <li class="title-item">DogCam</li>
+        <li class="title-item">Blog</li>
+        <li class="title-item">Depoimentos</li>
+        <li class="title-item">Fale Conosco</li>
       </ul>
     </nav>
   </div>
@@ -307,8 +316,20 @@
   </section>
 
   <footer>
-    <img src="img/DogResort.webp" alt="DogResort">
+    <div>
+      <img src="img/DogResort.webp" alt="DogResort">
+      <span><strong>Dog</strong>Resort</span>
+    </div>
     <p>A <strong>dog</strong>resort é um centro completo de bem-estar, diversão, saúde e equilíbrio, que investe na qualidade de vida dos cães. Tem o objetivo de implementar um novo conceito de excelência no universo canino, reunindo serviços especializados e profissionais capacitados e apaixonados pelo que fazem.</p>
+    <ul>
+      <li><a href="#"><img src="img/Facebook.svg" alt="Ícone Facebook"></a></li>
+      <li><a href="#"><img src="img/Instagram.svg" alt="Ícone Instagram"></a></li>
+      <li><a href="#"><img src="img/Twitter.svg" alt="Ícone Twitter"></a></li>
+    </ul>
+    <div>
+      <p>Copyright © 2023 DogResort</p>
+      <p>Todos os direitos reservados.</p>
+    </div>
   </footer>
 
   <script src="scripts/script.js"></script>
