@@ -1,4 +1,5 @@
 body {
   font-family: "Livvic", sans-serif;
   line-height: 1.25em;
+  background-color: var(--w1);
 }

@@ -1,9 +1,17 @@
 @import url(reset.css);
 @import url(global.css);
 @import url(header.css);
+@import url(glider.min.css);
 @import url(main.css);
 
 :root {
   --d1: #97ca49;
+  --d2: #ffa307;
+  --d3: #ffccc3;
+  --d4: #b9e1f8;
+  --d5: #47c8f3;
+  --d6: #1e37b8;
   --w1: #faf5ef;
+  --b1: #473c2f;
+  --b2: #323d44;
 }

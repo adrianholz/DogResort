@@ -22,7 +22,7 @@
         <span><strong>Dog</strong>Resort</span>
       </div>
       <div class="header-content">
-        <a href="#">Login</a>
+        <a href="#" class="button">Login</a>
         <button aria-controls="menu" class="menu-toggle"></button>
       </div>
     </div>
@@ -68,13 +68,50 @@
   </div>
 
   <main role="main">
-    <div>
-      <img src="img/Daycare.jpeg" alt="Daycare (Creche para cachorros)">
-      <div>
-        <h1>Daycare</h1>
-        <p><span>Socialização</span> e <span>gasto de energia</span> adaptado aos diferentes portes e condicionamentos físicos.</p>
-        <a href="#">Saiba Mais</a>
+    <div class="glider-contain">
+      <div class="glider">
+        <div class="slider">
+          <img src="img/Daycare.webp" alt="Daycare (Creche para cachorros)">
+          <div class="slider-inner">
+            <h1>Daycare</h1>
+            <p><span>Socialização</span> e <span>gasto de energia</span> adaptado aos diferentes portes e condicionamentos físicos.</p>
+            <a href="#" class="button">Saiba Mais</a>
+          </div>
+        </div>
+        <div class="slider slide-hospedagem">
+          <img src="img/Hospedagem.webp" alt="Hospedagem para cachorros">
+          <div class="slider-inner">
+            <h1>Hospedagem</h1>
+            <p><span>Exclusiva</span> para os cães que frequentam o daycare.</p>
+            <a href="#" class="button">Saiba Mais</a>
+          </div>
+        </div>
+        <div class="slider slide-estetica">
+          <img src="img/Estética.jpg" alt="Estética animal">
+          <div class="slider-inner">
+            <h1>Estética <br>animal</h1>
+            <p><span>Banho</span> e <span>tosa</span> para nossos cães saírem limpinhos, cheirosos e relaxados. </p>
+            <a href="#" class="button">Saiba Mais</a>
+          </div>
+        </div>
+        <div class="slider slide-natacao">
+          <img src="img/Natação.jpg" alt="Natação para cachorros">
+          <div class="slider-inner">
+            <h1>Natação</h1>
+            <p>Tanto para <span>recreação</span> quanto para <span>fisioterapia aquática</span>, nossos cães amam nadar!</p>
+            <a href="#" class="button">Saiba Mais</a>
+          </div>
+        </div>
+        <div class="slider slide-dogprevent">
+          <img src="img/DogPrevent.png" alt="DogPrevent">
+          <div class="slider-inner">
+            <h1>DogPrevent</h1>
+            <p>Conheça nossas terapias especializadas, atendimentos veterinários e cuidados <span>dog</span>senior e <span>dog</span>special.</p>
+            <a href="#" class="button">Saiba Mais</a>
+          </div>
+        </div>
       </div>
+      <div role="tablist" class="dots"></div>
     </div>
   </main>
 
@@ -333,6 +370,17 @@
   </footer>
 
   <script src="scripts/script.js"></script>
+  <script src="scripts/glider.min.js"></script>
+  <script>
+    window.addEventListener('load', function () {
+      new Glider(document.querySelector('.glider'), {
+        draggable: true,
+        scrollLock: true,
+        dots: ".dots",
+        rewind: true
+      })
+    })
+  </script>
 
 </body>
 

@@ -44,7 +44,7 @@ header {
   gap: 10px;
 }
 
-.header-content a {
+.button {
   font-size: 1.125em;
   font-weight: 700;
   color: var(--w1);
@@ -55,7 +55,7 @@ header {
   transition: 0.2s ease;
 }
 
-.header-content a:hover {
+.button:hover {
   background-color: var(--w1);
   color: var(--d1);
 }
