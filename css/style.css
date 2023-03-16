@@ -1,8 +1,8 @@
 @import url(reset.css);
 @import url(global.css);
 @import url(header.css);
-@import url(glider.min.css);
 @import url(main.css);
+@import url(services.css);
 
 :root {
   --d1: #97ca49;

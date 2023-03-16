@@ -7,10 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DogResort | Daycare e Creche para Cachorros</title>
   <meta name="description" content="A DogResort oferece serviços que promovem a melhor experiência para seu cão, incluindo daycare, hospedagem, estética animal e natação, garantindo sempre a saúde e o bem-estar canino.">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@400;600;700&family=Noto+Sans+Tamil:wght@500;900&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -68,9 +70,9 @@
   </div>
 
   <main role="main">
-    <div class="glider-contain">
-      <div class="glider">
-        <div class="slider">
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="slider swiper-slide">
           <img src="img/Daycare.webp" alt="Daycare (Creche para cachorros)">
           <div class="slider-inner">
             <h1>Daycare</h1>
@@ -78,72 +80,81 @@
             <a href="#" class="button">Saiba Mais</a>
           </div>
         </div>
-        <div class="slider slide-hospedagem">
+        <div class="slider slide-hospedagem swiper-slide">
           <img src="img/Hospedagem.webp" alt="Hospedagem para cachorros">
           <div class="slider-inner">
-            <h1>Hospedagem</h1>
-            <p><span>Exclusiva</span> para os cães que frequentam o daycare.</p>
+            <h2>DogRelax</h2>
+            <p>Hospedagem <span>exclusiva</span> para os cães que frequentam o daycare.</p>
             <a href="#" class="button">Saiba Mais</a>
           </div>
         </div>
-        <div class="slider slide-estetica">
+        <div class="slider slide-estetica swiper-slide">
           <img src="img/Estética.webp" alt="Estética animal">
           <div class="slider-inner">
-            <h1>Estética <br>animal</h1>
+            <h2>Estética <br>animal</h2>
             <p><span>Banho</span> e <span>tosa</span> para nossos cães saírem limpinhos, cheirosos e relaxados. </p>
             <a href="#" class="button">Saiba Mais</a>
           </div>
         </div>
-        <div class="slider slide-natacao">
+        <div class="slider slide-natacao swiper-slide">
           <img src="img/Natação.webp" alt="Natação para cachorros">
           <div class="slider-inner">
-            <h1>Natação</h1>
+            <h2>Natação</h2>
             <p>Tanto para <span>recreação</span> quanto para <span>fisioterapia aquática</span>, nossos cães amam nadar!</p>
             <a href="#" class="button">Saiba Mais</a>
           </div>
         </div>
-        <div class="slider slide-dogprevent">
+        <div class="slider slide-dogprevent swiper-slide">
           <img src="img/DogPrevent.webp" alt="DogPrevent">
           <div class="slider-inner">
-            <h1>DogPrevent</h1>
+            <h2>Dog<span>Prevent</span></h2>
+            <h3>Bem-estar e saúde animal</h3>
             <p>Conheça nossas terapias especializadas, atendimentos veterinários e cuidados <span>dog</span>senior e <span>dog</span>special.</p>
             <a href="#" class="button">Saiba Mais</a>
           </div>
         </div>
       </div>
-      <div role="tablist" class="dots"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
     </div>
   </main>
 
-  <section>
-    <div>
-      <h1>Nossos Serviços</h1>
-      <p>Pensando em um atendimento completo de excelência em bem-estar canino, a <strong>dog</strong>resort oferece uma diversidade de serviços que promovem a melhor experiência para seu cão.</p>
-      <p>Clique nos ícones para saber mais</p>
-      <img src="img/Arrow.svg" alt="Seta">
-    </div>
-    <div>
-      <div>
-        <img src="img/Daycare Balloon.svg" alt="Balão Daycare (Creche para Cachorros)">
-        <h2>Daycare</h2>
+  <section class="services" id="services">
+    <div class="services-inner">
+      <div class="services-description">
+        <h1>Nossos Serviços</h1>
+        <p>Pensando em um atendimento completo de excelência em bem-estar canino, a <strong>dog</strong>resort oferece uma diversidade de serviços que promovem a melhor experiência para seu cão.</p>
+        <p>Clique nos ícones para saber mais</p>
+        <img src="img/Arrow.svg" alt="Seta">
       </div>
-      <div>
-        <img src="img/Hospedagem Balloon.svg" alt="Balão Hospedagem">
-        <h2>Hospedagem</h2>
-      </div>
-      <div>
-        <img src="img/Estetica Balloon.svg" alt="Balão Estética">
-        <h2>Estética animal:</h2>
-        <p>• banho e tosa </p>
-      </div>
-      <div>
-        <img src="img/Natacao Balloon.svg" alt="Balão Natação">
-        <h2>Natação</h2>
-      </div>
-      <div>
-        <img src="img/DogPrevent Balloon.svg" alt="Balão DogPrevent">
-        <h2>DogPrevent</h2>
-        <p>• saúde e bem-estar</p>
+      <div class="balloons">
+        <div class="balloon">
+          <img src="img/DogResort Balloon.svg" alt="Balão DogResort">
+          <img src="img/DogResort.webp" alt="DogResort">
+          <h2>Daycare</h2>
+        </div>
+        <div class="balloon">
+          <img src="img/Daycare Balloon.svg" alt="Balão Daycare (Creche para Cachorros)">
+          <h2>Daycare</h2>
+        </div>
+        <div class="balloon">
+          <img src="img/Hospedagem Balloon.svg" alt="Balão Hospedagem">
+          <h2>Hospedagem</h2>
+        </div>
+        <div class="balloon">
+          <img src="img/Estetica Balloon.svg" alt="Balão Estética">
+          <h2>Estética animal:</h2>
+          <p>• banho e tosa </p>
+        </div>
+        <div class="balloon">
+          <img src="img/Natacao Balloon.svg" alt="Balão Natação">
+          <h2>Natação</h2>
+        </div>
+        <div class="balloon">
+          <img src="img/DogPrevent Balloon.svg" alt="Balão DogPrevent">
+          <h2>DogPrevent</h2>
+          <p>• saúde e bem-estar</p>
+        </div>
       </div>
     </div>
   </section>
@@ -370,16 +381,24 @@
   </footer>
 
   <script src="scripts/script.js"></script>
-  <script src="scripts/glider.min.js"></script>
+  <script src="
+https://cdn.jsdelivr.net/npm/swiper@9.1.0/swiper-bundle.min.js
+"></script>
   <script>
-    window.addEventListener('load', function () {
-      new Glider(document.querySelector('.glider'), {
-        draggable: true,
-        scrollLock: true,
-        dots: ".dots",
-        rewind: true
-      })
-    })
+    const swiper = new Swiper('.swiper', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      grabCursor: true,
+      loop: true,
+      rewind: true,
+      speed: 1000,
+      autoplay: {
+        delay: 5000,
+      },
+    });
+
   </script>
 
 </body>

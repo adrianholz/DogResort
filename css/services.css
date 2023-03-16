@@ -1,0 +1,89 @@
+.services {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 0;
+  color: var(--b1);
+}
+
+.services-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.services-description {
+  position: relative;
+}
+
+.services-description h1 {
+  font-size: 6em;
+  line-height: 0.85em;
+  text-transform: lowercase;
+  font-weight: 700;
+  color: var(--d1);
+}
+
+.services-description p {
+  font-size: 1.125em;
+  line-height: 1.75em;
+  max-width: 500px;
+}
+
+.services-description p:nth-child(2) {
+  padding: 50px 0 40px 0;
+}
+
+.services-description strong {
+  font-weight: 600;
+}
+
+.services-description p:nth-child(3) {
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+}
+
+.services-description img {
+  max-width: 240px;
+  position: absolute;
+  right: 25px;
+  top: 290px;
+  transform: rotate(5deg);
+}
+
+.balloon {
+  position: absolute;
+}
+
+.balloon:nth-child(1) img:nth-child(1) {
+  z-index: -1;
+}
+
+.balloon:nth-child(1) img:nth-child(2) {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+.balloon:nth-child(1) img:nth-child(1) {
+  position: absolute;
+}
+
+.balloon:nth-child(2) {
+  display: none;
+}
+
+.balloon:nth-child(3) {
+  display: none;
+}
+
+.balloon:nth-child(4) {
+  display: none;
+}
+
+.balloon:nth-child(5) {
+  display: none;
+}
+
+.balloon:nth-child(6) {
+  display: none;
+}

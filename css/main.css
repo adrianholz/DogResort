@@ -8,6 +8,7 @@ main {
   color: var(--w1);
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 40px;
   align-items: center;
 }
 
@@ -25,9 +26,10 @@ main {
   gap: 40px;
 }
 
-.slider-inner h1 {
+.slider-inner h1,
+.slider-inner h2 {
   font-size: 6em;
-  line-height: 80px;
+  line-height: 0.85em;
   font-weight: 700;
   text-transform: lowercase;
 }
@@ -70,6 +72,62 @@ main {
   background-color: var(--d6);
 }
 
-.glider-dots {
-  margin-top: 10px;
+.slide-hospedagem .button {
+  color: var(--b1);
+  border-color: var(--b1);
+}
+
+.slide-hospedagem .button:hover {
+  border-color: var(--w1);
+  color: var(--b1);
+}
+
+.slide-estetica .button {
+  color: var(--b2);
+  border-color: var(--b2);
+}
+
+.slide-estetica .button:hover {
+  border-color: var(--w1);
+  color: var(--b2);
+}
+
+.slide-natacao .button:hover {
+  color: var(--d5);
+}
+
+.slide-dogprevent .button:hover {
+  color: var(--d6);
+}
+
+.slide-dogprevent span {
+  font-weight: 500;
+}
+
+.slide-dogprevent p {
+  max-width: 400px;
+}
+
+.slide-dogprevent h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.swiper-slide {
+  display: grid;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: var(--w1);
+  padding: 10px;
+  transform: scale(0.7);
+  transition: all 0.2 ease;
+  -webkit-transition: -webkit-transform 0.2s ease;
+  -moz-transition: -moz-transform 0.2s ease;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  transform: scale(0.9);
 }
