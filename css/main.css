@@ -72,6 +72,11 @@ main {
   background-color: var(--d6);
 }
 
+.slide-dogprevent .slider-inner img {
+  max-width: 200px;
+  margin: 0 0 -40px 150px;
+}
+
 .slide-hospedagem .button {
   color: var(--b1);
   border-color: var(--b1);

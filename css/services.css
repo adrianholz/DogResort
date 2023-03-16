@@ -1,7 +1,7 @@
 .services {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 80px 0;
+  padding: 140px 20px;
   color: var(--b1);
 }
 
@@ -43,45 +43,137 @@
 }
 
 .services-description img {
-  max-width: 240px;
+  max-width: 200px;
   position: absolute;
-  right: 25px;
-  top: 290px;
-  transform: rotate(5deg);
+  right: 70px;
+  top: 320px;
+  transform: rotate(10deg);
+}
+
+.balloons {
+  position: relative;
+  margin-top: 40px;
 }
 
 .balloon {
   position: absolute;
+  cursor: pointer;
+  left: 130px;
+  top: 30px;
+  transform: scale(0.97);
+  transition: transform 0.2s ease;
+  text-transform: lowercase;
+  font-size: 2.25em;
+  font-weight: 700;
+  color: var(--w1);
+}
+
+.balloon h2 {
+  position: absolute;
+}
+
+.balloon:hover {
+  transform: scale(1);
+}
+
+.balloon:nth-child(1) {
+  max-width: 300px;
+  width: 100%;
+  height: 280px;
 }
 
 .balloon:nth-child(1) img:nth-child(1) {
+  position: absolute;
   z-index: -1;
+  max-width: 300px;
 }
 
 .balloon:nth-child(1) img:nth-child(2) {
   position: absolute;
-  left: 50px;
-  top: 50px;
+  max-width: 120px;
+  left: 90px;
+  top: 60px;
 }
 
-.balloon:nth-child(1) img:nth-child(1) {
-  position: absolute;
+.balloon:nth-child(1) h2 {
+  top: 200px;
+  left: 70px;
+  color: var(--w1);
+  font-weight: 400;
+  text-transform: lowercase;
+}
+
+.balloon:nth-child(1) strong {
+  font-weight: 700;
 }
 
 .balloon:nth-child(2) {
-  display: none;
+  top: -110px;
+  left: 180px;
+}
+
+.balloon:nth-child(2) img {
+  max-width: 220px;
+}
+
+.balloon:nth-child(2) h2 {
+  top: 48px;
+  left: 40px;
 }
 
 .balloon:nth-child(3) {
-  display: none;
+  top: 48px;
+  left: 400px;
+}
+
+.balloon:nth-child(3) img {
+  max-width: 260px;
+}
+
+.balloon:nth-child(3) h2 {
+  top: 37px;
+  left: 75px;
+  color: var(--b1);
 }
 
 .balloon:nth-child(4) {
-  display: none;
+  top: 180px;
+  left: 330px;
+}
+
+.balloon:nth-child(4) img {
+  max-width: 280px;
+}
+
+.balloon:nth-child(4) h2 {
+  color: var(--b2);
+  line-height: 1.25em;
+  top: 55px;
+  left: 112px;
+}
+
+.balloon:nth-child(4) p {
+  position: absolute;
+  font-weight: 600;
+  font-size: 0.6em;
+  color: var(--b2);
+  line-height: 1.25em;
+  top: 160px;
+  left: 70px;
 }
 
 .balloon:nth-child(5) {
-  display: none;
+  top: 260px;
+  left: 70px;
+}
+
+.balloon:nth-child(5) img {
+  max-width: 220px;
+}
+
+.balloon:nth-child(5) h2 {
+  top: 105px;
+  left: 50px;
 }
 
 .balloon:nth-child(6) {
