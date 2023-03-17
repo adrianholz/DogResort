@@ -1,0 +1,78 @@
+.faq h1 {
+  font-size: 3em;
+  color: var(--w1);
+  background-color: var(--d2);
+  padding: 60px 20px;
+  font-weight: 700;
+  text-transform: lowercase;
+  text-align: center;
+}
+
+.faq-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.faq button {
+  background: none;
+  border: none;
+  font-size: 1.25em;
+  font-weight: 700;
+  padding: 5px 10px 10px 10px;
+  margin: 10px 0;
+  font-family: "Livvic", sans-serif;
+  color: var(--b1);
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.2s ease;
+  border-radius: 8px;
+}
+
+.faq button:hover {
+  background-color: var(--b1);
+  color: var(--w1);
+}
+
+.faq dl {
+  margin: 40px 0;
+}
+
+.faq button::before {
+  content: "+";
+  font-size: 1.45em;
+  font-weight: 600;
+}
+
+.faq dd {
+  font-size: 1.125em;
+  line-height: 1.75em;
+  color: var(--b1);
+  display: none;
+  margin-left: 30px;
+}
+
+.faq dd.active {
+  display: block;
+}
+
+.faq .button {
+  border-color: var(--b1);
+  color: var(--b1);
+}
+
+.faq .button:hover {
+  background-color: var(--b1);
+  color: var(--w1);
+}
+
+.faq-buttons {
+  margin: 20px 0;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.faq dd strong {
+  font-weight: 600;
+}

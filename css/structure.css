@@ -1,13 +1,14 @@
 .structure {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 40px 20px;
+  padding: 40px 20px 70px 20px;
   color: var(--b1);
 }
 
 .structure-inner {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
 }
 
 .structure-inner img {
@@ -37,4 +38,16 @@
   line-height: 1.75em;
   color: var(--b1);
   font-weight: 500;
+}
+
+.structure-content .button {
+  color: var(--b1);
+  border-color: var(--b1);
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.structure-content .button:hover {
+  color: var(--w1);
+  background-color: var(--b1);
 }

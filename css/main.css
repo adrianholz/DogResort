@@ -83,8 +83,9 @@ main {
 }
 
 .slide-hospedagem .button:hover {
-  border-color: var(--w1);
-  color: var(--b1);
+  border-color: var(--b1);
+  color: var(--w1);
+  background-color: var(--b1);
 }
 
 .slide-estetica .button {
@@ -93,8 +94,9 @@ main {
 }
 
 .slide-estetica .button:hover {
-  border-color: var(--w1);
-  color: var(--b2);
+  border-color: var(--b2);
+  color: var(--w1);
+  background-color: var(--b2);
 }
 
 .slide-natacao .button:hover {

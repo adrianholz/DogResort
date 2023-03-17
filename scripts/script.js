@@ -22,3 +22,12 @@ menuClickable.forEach((item, index) => {
     item.classList.toggle("active");
   });
 });
+
+const faqButtons = document.querySelectorAll(".faq button");
+const faqDescriptions = document.querySelectorAll("dd");
+
+faqButtons.forEach((item, index) => {
+  item.addEventListener("click", () => {
+    faqDescriptions[index].classList.toggle("active");
+  });
+});
