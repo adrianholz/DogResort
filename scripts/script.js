@@ -29,5 +29,6 @@ const faqDescriptions = document.querySelectorAll("dd");
 faqButtons.forEach((item, index) => {
   item.addEventListener("click", () => {
     faqDescriptions[index].classList.toggle("active");
+    item.classList.toggle("active");
   });
 });

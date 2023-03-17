@@ -44,6 +44,11 @@
   font-weight: 600;
 }
 
+.faq button.active::before {
+  content: "-";
+  margin-right: 5px;
+}
+
 .faq dd {
   font-size: 1.125em;
   line-height: 1.75em;
