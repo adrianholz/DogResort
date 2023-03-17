@@ -6,6 +6,7 @@
 @import url(structure.css);
 @import url(faq.css);
 @import url(contact.css);
+@import url(footer.css);
 
 :root {
   --d1: #97ca49;

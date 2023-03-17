@@ -59,6 +59,8 @@
 .faq .button {
   border-color: var(--b1);
   color: var(--b1);
+  font-size: 1em;
+  line-height: 20px;
 }
 
 .faq .button:hover {

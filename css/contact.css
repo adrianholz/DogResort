@@ -23,10 +23,60 @@
   gap: 40px;
   font-size: 1.125em;
   line-height: 30px;
+  font-weight: 500;
 }
 
 .contact-content a {
   color: var(--w1);
   font-weight: 600;
   text-decoration: none;
+}
+
+.contact-form {
+  margin: 80px 20px;
+}
+
+.form-inner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.form-inner form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form-inner form div:nth-child(3),
+.form-inner form div:nth-child(4) {
+  grid-column: span 2;
+}
+
+.form-inner form input,
+.form-inner form textarea {
+  padding: 12px 20px;
+  background: #fff;
+  font-size: 1.25em;
+  font-family: "Livvic", sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 1px solid rgba(71, 60, 47, 0.5);
+  font-weight: 600;
+  resize: none;
+}
+
+.form-inner form .button {
+  color: var(--w1);
+  font-family: "Livvic", sans-serif;
+  background: var(--d1);
+  font-size: 1.25em;
+  font-weight: 700;
+  cursor: pointer;
+  max-width: 140px;
+  padding: 12px 24px;
+}
+
+.form-inner form .button:hover {
+  background: var(--b1);
 }
