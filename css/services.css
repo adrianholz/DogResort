@@ -40,6 +40,7 @@
   font-size: 0.9em;
   text-transform: uppercase;
   letter-spacing: 0.125em;
+  font-weight: 500;
 }
 
 .services-description img {
@@ -48,6 +49,11 @@
   right: 70px;
   top: 320px;
   transform: rotate(10deg);
+  transition: 0.2s ease;
+}
+
+.services-description img:hover {
+  transform: translate(5px, -5px);
 }
 
 .balloons {
@@ -177,5 +183,30 @@
 }
 
 .balloon:nth-child(6) {
-  display: none;
+  top: -20px;
+  left: -70px;
+}
+
+.balloon:nth-child(6) img {
+  max-width: 260px;
+}
+
+.balloon:nth-child(6) h2 {
+  top: 75px;
+  left: 24px;
+  font-size: 0.85em;
+}
+
+.balloon:nth-child(6) p {
+  position: absolute;
+  font-weight: 600;
+  font-size: 0.6em;
+  line-height: 1.25em;
+  top: 120px;
+  left: 35px;
+}
+
+.balloon:nth-child(6) span,
+.balloon:nth-child(3) span {
+  font-weight: 500;
 }

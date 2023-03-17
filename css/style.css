@@ -3,6 +3,7 @@
 @import url(header.css);
 @import url(main.css);
 @import url(services.css);
+@import url(structure.css);
 
 :root {
   --d1: #97ca49;

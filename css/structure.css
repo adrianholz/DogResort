@@ -1,0 +1,40 @@
+.structure {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  color: var(--b1);
+}
+
+.structure-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.structure-inner img {
+  max-width: 600px;
+}
+
+.structure-content h1 {
+  font-size: 6em;
+  line-height: 0.85em;
+  text-transform: lowercase;
+  font-weight: 700;
+  color: var(--d1);
+}
+
+.structure-content span {
+  font-size: 1.875em;
+  line-height: 0.85em;
+  text-transform: lowercase;
+  font-weight: 700;
+  color: var(--b1);
+  display: block;
+  padding: 30px 0 20px 0;
+}
+
+.structure-content ul li {
+  font-size: 1.125em;
+  line-height: 1.75em;
+  color: var(--b1);
+  font-weight: 500;
+}

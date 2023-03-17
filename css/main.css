@@ -105,7 +105,8 @@ main {
   color: var(--d6);
 }
 
-.slide-dogprevent span {
+.slide-dogprevent span,
+.slide-hospedagem h2 span {
   font-weight: 500;
 }
 
@@ -116,6 +117,10 @@ main {
 .slide-dogprevent h3 {
   font-size: 1.5em;
   font-weight: 600;
+}
+
+.slide-dogprevent strong {
+  font-weight: 700;
 }
 
 .swiper-slide {
