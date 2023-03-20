@@ -50,3 +50,51 @@
   color: var(--w1);
   background-color: var(--b1);
 }
+
+@media (max-width: 1100px) {
+  .structure {
+    padding: 0 20px;
+  }
+  .structure-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .structure-content h1 {
+    font-size: 5em;
+    max-width: 220px;
+  }
+  .structure-content {
+    max-width: 500px;
+    width: 100%;
+  }
+  .structure-content span {
+    line-height: 32px;
+  }
+  .structure-inner img {
+    max-width: 400px;
+    margin: 40px 0 70px 0;
+  }
+}
+
+@media (max-width: 960px) {
+  .structure-content {
+    max-width: 380px;
+  }
+  .structure-content h1 {
+    font-size: 3.5em;
+  }
+  .structure-content ul li {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 640px) {
+  .structure-content {
+    margin-top: 40px;
+  }
+  .structure-inner img {
+    max-width: 300px;
+    margin: 30px 0 60px 0;
+  }
+}
