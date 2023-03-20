@@ -206,7 +206,7 @@ nav .button {
   display: none;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 960px) {
   header .button {
     display: none;
   }
