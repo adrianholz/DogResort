@@ -15,6 +15,7 @@
   text-transform: lowercase;
   text-align: center;
   margin-bottom: 50px;
+  line-height: 48px;
 }
 
 .contact-content {
@@ -79,4 +80,25 @@
 
 .form-inner form .button:hover {
   background: var(--b1);
+}
+
+@media (max-width: 960px) {
+  .contact-content img {
+    display: none;
+  }
+  .contact-content {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .contact-content p {
+    max-width: 460px;
+    font-size: 1em;
+  }
+  .contact h1 {
+    margin-bottom: 20px;
+  }
+  .form-inner form div {
+    grid-column: span 2;
+  }
 }

@@ -1,5 +1,6 @@
 .faq h1 {
   font-size: 3em;
+  line-height: 42px;
   color: var(--w1);
   background-color: var(--d2);
   padding: 60px 20px;
@@ -27,6 +28,7 @@
   text-align: left;
   transition: all 0.2s ease;
   border-radius: 8px;
+  line-height: 1.25em;
 }
 
 .faq button:hover {
@@ -82,4 +84,10 @@
 
 .faq dd strong {
   font-weight: 600;
+}
+
+@media (max-width: 960px) {
+  .faq dd {
+    font-size: 1em;
+  }
 }
