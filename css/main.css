@@ -179,13 +179,13 @@ main {
   }
   .slider-inner h1,
   .slider-inner h2 {
-    font-size: 4em;
+    font-size: 3.5em;
   }
   .slider-inner p {
     font-size: 1em;
   }
   .slider-inner {
-    padding: 20px 30px 40px 30px;
+    padding: 20px 20px 40px 20px;
     min-height: 300px;
     justify-content: center;
   }
@@ -201,5 +201,8 @@ main {
   }
   .slide-dogprevent .slider-inner img {
     display: none;
+  }
+  .slide-dogprevent .slider-inner p {
+    max-width: 360px;
   }
 }
