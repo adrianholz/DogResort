@@ -3,3 +3,8 @@ body {
   line-height: 1.25em;
   background-color: var(--w1);
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

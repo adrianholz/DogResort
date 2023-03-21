@@ -178,7 +178,7 @@ main {
     padding: 0 20px;
   }
   .slide-estetica img {
-    object-position: bottom;
+    object-position: top;
   }
   .slide-hospedagem img {
     object-position: bottom;
