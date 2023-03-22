@@ -150,14 +150,14 @@
     font-size: 1em;
   }
   .about-services ul {
-    bottom: 40px;
-    left: 100px;
+    bottom: 60px;
+    left: 90px;
   }
   .about img {
-    max-width: 400px;
+    max-width: 100%;
   }
   .about-services-grid ul li {
-    padding-top: 5px;
+    padding-top: 0;
   }
   .about-inner {
     max-width: 400px;
@@ -176,5 +176,18 @@
     flex-direction: column;
     justify-items: center;
     text-align: center;
+  }
+  .about-services-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 445px) {
+  .about-services ul {
+    bottom: 40px;
+    left: 80px;
+  }
+  .about-services ul li {
+    font-size: 0.9em;
   }
 }
