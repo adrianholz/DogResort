@@ -150,7 +150,7 @@
     font-size: 1em;
   }
   .about-services ul {
-    bottom: 60px;
+    bottom: 70px;
     left: 90px;
   }
   .about img {
@@ -158,6 +158,9 @@
   }
   .about-services-grid ul li {
     padding-top: 0;
+  }
+  .about-services-grid ul li:nth-child(6) {
+    line-height: 24px;
   }
   .about-inner {
     max-width: 400px;
