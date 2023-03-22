@@ -257,15 +257,6 @@
   }
 }
 
-@keyframes arrow {
-  from {
-    right: 30px;
-  }
-  to {
-    right: 20px;
-  }
-}
-
 @media (max-width: 640px) {
   .balloon {
     position: unset;

@@ -1,0 +1,131 @@
+.facilities-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 120px 20px 700px 20px;
+  position: relative;
+}
+
+.facilities-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.facilities-content img {
+  max-width: 500px;
+  width: 100%;
+}
+
+.facilities-content h1 {
+  font-size: 6em;
+  line-height: 0.85em;
+  text-transform: lowercase;
+  font-weight: 700;
+  color: var(--d1);
+  margin-bottom: 40px;
+}
+
+.facilities-content p:nth-child(2),
+.facilities-content ul li {
+  font-size: 1.125em;
+  line-height: 1.75em;
+  max-width: 540px;
+}
+
+.facilities-list-title {
+  font-size: 1.5em;
+  font-weight: 700;
+  padding: 40px 0 20px 0;
+  line-height: 1.25em;
+}
+
+.structure-2 {
+  max-width: 400px;
+  position: absolute;
+  right: 420px;
+  top: 570px;
+}
+
+.structure-3 {
+  max-width: 380px;
+  position: absolute;
+  right: 0;
+  top: 620px;
+}
+
+.structure-4 {
+  position: absolute;
+  max-width: 500px;
+  right: 400px;
+  top: 940px;
+}
+
+.structure-5 {
+  max-width: 340px;
+  position: absolute;
+  top: 700px;
+}
+
+.facilities-image-responsive {
+  display: none;
+}
+
+@media (max-width: 1220px) {
+  .structure-2,
+  .structure-3,
+  .structure-4,
+  .structure-5 {
+    position: unset;
+    object-fit: contain;
+  }
+  .facilities-images {
+    margin-top: 40px;
+    display: flex;
+    gap: 40px;
+    overflow-x: auto;
+    position: relative;
+  }
+  .facilities-images::after {
+    content: "→";
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    color: var(--b1);
+    animation: arrow 0.5s ease-in 0s infinite alternate;
+  }
+  .facilities-content {
+    align-items: center;
+  }
+}
+
+@media (max-width: 960px) {
+  .facilities-content-image {
+    display: none;
+  }
+  .facilities-image-responsive {
+    display: unset;
+    max-width: 340px;
+    object-fit: contain;
+  }
+  .facilities-images {
+    margin-top: 30px;
+  }
+  .facilities-content h1 {
+    font-size: 3.5em;
+  }
+  .facilities-content {
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .facilities-inner {
+    padding: 60px 20px 80px 20px;
+  }
+  .facilities-content p:nth-child(2),
+  .facilities-content ul li {
+    font-size: 1em;
+  }
+  .facilities-content p {
+    font-size: 1.25em;
+  }
+}

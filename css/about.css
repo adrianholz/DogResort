@@ -165,15 +165,13 @@
   .about-inner {
     max-width: 400px;
     margin: 0 auto;
+    padding: 60px 20px 80px 20px;
   }
   .about-services h2 {
     margin: 60px 0 40px 0;
   }
   .about-services {
     margin-bottom: 40px;
-  }
-  .about-inner {
-    padding: 60px 20px 80px 20px;
   }
   .about-heading {
     flex-direction: column;
