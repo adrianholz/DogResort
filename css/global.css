@@ -2,6 +2,7 @@ body {
   font-family: "Livvic", sans-serif;
   line-height: 1.25em;
   background-color: var(--w1);
+  color: var(--b1);
 }
 
 a {

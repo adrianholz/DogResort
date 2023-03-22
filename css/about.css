@@ -1,0 +1,180 @@
+.about-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+
+.about-inner strong {
+  font-weight: 600;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 40px;
+}
+
+.about-content img {
+  max-width: 600px;
+}
+
+.about-services {
+  margin-bottom: 80px;
+}
+
+.about-content h1,
+.about-services h2 {
+  font-size: 6em;
+  line-height: 0.85em;
+  text-transform: lowercase;
+  font-weight: 700;
+  color: var(--d1);
+  margin-bottom: 40px;
+}
+
+.about-services h2 {
+  font-size: 4.5em;
+  margin-bottom: 60px;
+}
+
+.about-content p {
+  font-size: 1.125em;
+  line-height: 1.75em;
+  max-width: 540px;
+}
+
+.about-services-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.about-services-grid div:nth-child(1) {
+  position: relative;
+}
+
+.about-services-grid img {
+  max-width: 600px;
+}
+
+.about-services ul {
+  position: absolute;
+  bottom: 115px;
+  left: 130px;
+}
+
+.about-services ul li {
+  font-size: 1.25em;
+  padding-top: 10px;
+  line-height: 32px;
+  font-weight: 500;
+}
+
+.about-heading {
+  display: flex;
+  font-size: 4.5em;
+  font-weight: 700;
+  text-transform: lowercase;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-description {
+  margin-top: 40px;
+}
+
+.about-description h2 {
+  line-height: 60px;
+}
+
+.about-description p,
+.about-description ul li {
+  font-size: 1.125em;
+  line-height: 32px;
+  max-width: 800px;
+  padding-top: 30px;
+}
+
+.about-description ul {
+  list-style: unset;
+  padding-left: 20px;
+}
+
+.about-description ul li {
+  padding: 0;
+}
+
+.about-description ul li:nth-child(1) {
+  padding-top: 30px;
+}
+
+@media (max-width: 1285px) {
+  .about-content h1 {
+    font-size: 5em;
+  }
+  .about img {
+    max-width: 480px;
+  }
+  .about-services ul {
+    position: absolute;
+    bottom: 60px;
+    left: 120px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .about-daycare {
+    display: none;
+  }
+}
+
+@media (max-width: 960px) {
+  .about-content h1,
+  .about-services h2 {
+    font-size: 3.5em;
+  }
+  .about-content {
+    grid-template-columns: 1fr;
+  }
+  .about-description h2 {
+    font-size: 0.65em;
+    line-height: 42px;
+  }
+  .about-description img {
+    max-width: 60px;
+  }
+  .about-content p,
+  .about-description p,
+  .about-services-grid ul li,
+  .about-description ul li {
+    font-size: 1em;
+  }
+  .about-services ul {
+    bottom: 40px;
+    left: 100px;
+  }
+  .about img {
+    max-width: 400px;
+  }
+  .about-services-grid ul li {
+    padding-top: 5px;
+  }
+  .about-inner {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .about-services h2 {
+    margin: 60px 0 40px 0;
+  }
+  .about-services {
+    margin-bottom: 40px;
+  }
+  .about-inner {
+    padding: 60px 20px 80px 20px;
+  }
+  .about-heading {
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+  }
+}
