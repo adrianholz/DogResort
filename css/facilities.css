@@ -44,6 +44,7 @@
   position: absolute;
   right: 420px;
   top: 570px;
+  transition: 0.2s ease;
 }
 
 .structure-3 {
@@ -51,6 +52,7 @@
   position: absolute;
   right: 0;
   top: 620px;
+  transition: 0.2s ease;
 }
 
 .structure-4 {
@@ -58,12 +60,28 @@
   max-width: 500px;
   right: 400px;
   top: 940px;
+  transition: 0.2s ease;
 }
 
 .structure-5 {
   max-width: 340px;
   position: absolute;
   top: 700px;
+  transition: 0.2s ease;
+}
+
+.facilities-content-image,
+.facilities-image-responsive {
+  transition: 0.2s ease;
+}
+
+.structure-2:hover,
+.structure-3:hover,
+.structure-4:hover,
+.structure-5:hover,
+.facilities-content-image:hover,
+.facilities-image-responsive:hover {
+  transform: scale(1.02);
 }
 
 .facilities-image-responsive {
@@ -79,11 +97,12 @@
     object-fit: contain;
   }
   .facilities-images {
-    margin-top: 40px;
+    margin-top: 20px;
     display: flex;
     gap: 40px;
     overflow-x: auto;
     position: relative;
+    padding: 20px;
   }
   .facilities-images::after {
     content: "→";
@@ -108,7 +127,7 @@
     object-fit: contain;
   }
   .facilities-images {
-    margin-top: 30px;
+    margin-top: 10px;
   }
   .facilities-content h1 {
     font-size: 3.5em;
