@@ -88,11 +88,11 @@
   display: none;
 }
 
-.dogpark {
+.facility {
   padding-bottom: 120px;
 }
 
-.dogpark-inner {
+.facility-inner {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px 0 20px;
@@ -100,7 +100,7 @@
   grid-template-columns: 1fr 1fr;
 }
 
-.dogpark-logo {
+.facility-logo {
   display: flex;
   align-items: center;
   gap: 30px;
@@ -109,33 +109,33 @@
   color: var(--d2);
 }
 
-.dogpark-logo h2 strong {
+.facility-logo h2 strong {
   font-weight: 700;
 }
 
-.dogpark-logo img {
+.facility-logo img {
   max-width: 200px;
 }
 
-.dogpark-inner p {
+.facility-inner p {
   font-size: 1.125em;
   line-height: 1.75em;
   max-width: 540px;
   padding-top: 40px;
 }
 
-.dogpark-image-1 {
+.facility-image-1 {
   max-width: 460px;
   justify-self: end;
 }
 
-.dogpark-outer {
+.facility-outer {
   background-color: var(--d2);
   box-shadow: inset 0 40px var(--w1), inset 0 -40px var(--w1);
   margin-bottom: -80px;
 }
 
-.dogpark-outer > div {
+.facility-outer > div {
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
@@ -143,11 +143,11 @@
   align-items: center;
 }
 
-.dogpark-outer > div img {
+.facility-outer > div img {
   max-width: 460px;
 }
 
-.dogpark-outer h3 {
+.facility-outer h3 {
   font-size: 4em;
   line-height: 54px;
   color: var(--w1);
@@ -156,24 +156,57 @@
   margin-bottom: 20px;
 }
 
-.dogpark-outer ul {
+.facility-outer ul {
   list-style: unset;
   margin-left: 20px;
 }
 
-.dogpark-outer ul li {
+.facility-outer ul li {
   color: var(--w1);
   font-weight: 500;
   font-size: 1.125em;
   line-height: 32px;
 }
 
-.dogpark-1 {
+.facility-1 {
   margin-bottom: -80px;
 }
 
-.dogpark-2 {
+.facility-2 {
   align-items: center;
+}
+
+.dogfun .facility-logo h2 {
+  color: var(--d7);
+}
+
+.dogfun .facility-outer {
+  background-color: #abe9e0;
+}
+
+.dogfun .facility-outer h3,
+.dogfun .facility-outer p {
+  color: var(--b2);
+}
+
+.dogfun .facility-outer p {
+  font-size: 1.125em;
+  line-height: 32px;
+}
+
+.dogfun .facility-outer {
+  box-shadow: inset 0 20px var(--w1), inset 0 -20px var(--w1);
+}
+
+.dogfun .facility-inner {
+  margin-bottom: -120px;
+}
+
+.dogfun .facility-2 {
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: 700;
+  color: var(--b2);
 }
 
 @media (max-width: 1220px) {
@@ -206,21 +239,21 @@
   .facilities-content {
     align-items: center;
   }
-  .dogpark-image-1,
-  .dogpark-image-2 {
+  .facility-image-1,
+  .facility-image-2 {
     max-width: 400px !important;
   }
-  .dogpark-logo img {
+  .facility-logo img {
     max-width: 140px;
   }
-  .dogpark-logo h2 {
+  .facility-logo h2 {
     font-size: 0.75em;
   }
-  .dogpark-outer h3 {
+  .facility-outer h3 {
     font-size: 3.5em;
   }
-  .dogpark-1,
-  .dogpark-outer {
+  .facility-1,
+  .facility-outer {
     margin-bottom: -60px;
   }
 }
@@ -241,7 +274,7 @@
     font-size: 3.5em;
   }
   .facilities-content,
-  .dogpark-inner {
+  .facility-inner {
     display: block;
     max-width: 400px;
     margin: 0 auto;
@@ -251,40 +284,46 @@
   }
   .facilities-content p:nth-child(2),
   .facilities-content ul li,
-  .dogpark p,
-  .dogpark ul li {
+  .facility p,
+  .facility ul li {
     font-size: 1em;
   }
   .facilities-content p {
     font-size: 1.25em;
   }
-  .dogpark-logo h2 {
+  .facility-logo h2 {
     font-size: 0.5em;
   }
-  .dogpark-outer h3 {
+  .facility-outer h3 {
     font-size: 2.5em;
     line-height: 42px;
   }
-  .dogpark img {
+  .facility img {
     max-width: 400px;
     width: 100%;
   }
-  .dogpark-logo img {
+  .facility-logo img {
     max-width: 100px;
   }
-  .dogpark-outer img {
+  .facility-outer img {
     display: none;
   }
-  .dogpark-outer > div {
+  .facility-outer > div {
     max-width: 400px;
     margin: 0 auto 20px auto;
     display: block;
     padding: 80px 0;
   }
-  .dogpark-image-1 {
+  .facility-image-1 {
     margin-top: 30px;
   }
-  .dogpark-outer {
+  .facility-outer {
     padding: 0 20px;
+  }
+  .dogfun .facility-inner {
+    margin-bottom: -80px;
+  }
+  .dogfun .facility-outer p {
+    font-size: 1em;
   }
 }
