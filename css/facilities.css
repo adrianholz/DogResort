@@ -88,6 +88,10 @@
   display: none;
 }
 
+.dogpark {
+  padding-bottom: 120px;
+}
+
 .dogpark-inner {
   max-width: 1200px;
   margin: 0 auto;
@@ -202,6 +206,23 @@
   .facilities-content {
     align-items: center;
   }
+  .dogpark-image-1,
+  .dogpark-image-2 {
+    max-width: 400px !important;
+  }
+  .dogpark-logo img {
+    max-width: 140px;
+  }
+  .dogpark-logo h2 {
+    font-size: 0.75em;
+  }
+  .dogpark-outer h3 {
+    font-size: 3.5em;
+  }
+  .dogpark-1,
+  .dogpark-outer {
+    margin-bottom: -60px;
+  }
 }
 
 @media (max-width: 960px) {
@@ -219,7 +240,8 @@
   .facilities-content h1 {
     font-size: 3.5em;
   }
-  .facilities-content {
+  .facilities-content,
+  .dogpark-inner {
     display: block;
     max-width: 400px;
     margin: 0 auto;
@@ -228,10 +250,41 @@
     padding: 60px 20px 80px 20px;
   }
   .facilities-content p:nth-child(2),
-  .facilities-content ul li {
+  .facilities-content ul li,
+  .dogpark p,
+  .dogpark ul li {
     font-size: 1em;
   }
   .facilities-content p {
     font-size: 1.25em;
+  }
+  .dogpark-logo h2 {
+    font-size: 0.5em;
+  }
+  .dogpark-outer h3 {
+    font-size: 2.5em;
+    line-height: 42px;
+  }
+  .dogpark img {
+    max-width: 400px;
+    width: 100%;
+  }
+  .dogpark-logo img {
+    max-width: 100px;
+  }
+  .dogpark-outer img {
+    display: none;
+  }
+  .dogpark-outer > div {
+    max-width: 400px;
+    margin: 0 auto 20px auto;
+    display: block;
+    padding: 80px 0;
+  }
+  .dogpark-image-1 {
+    margin-top: 30px;
+  }
+  .dogpark-outer {
+    padding: 0 20px;
   }
 }
