@@ -100,6 +100,10 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.facility-outer {
+  padding: 0 20px;
+}
+
 .facility-logo {
   display: flex;
   align-items: center;
@@ -207,6 +211,70 @@
   text-align: center;
   font-weight: 700;
   color: var(--b2);
+  position: relative;
+}
+
+.dogfun .facility-2 > div img {
+  max-width: 520px;
+  margin-top: 40px;
+}
+
+.dogfun .facility-2 p {
+  position: absolute;
+  font-size: 1em;
+  max-width: 400px;
+  top: 135px;
+  left: 140px;
+}
+
+.dogfun {
+  padding-bottom: 240px;
+}
+
+.dogspa h2 {
+  color: var(--d5);
+}
+
+.dogspa .facility-outer {
+  background-color: var(--d5);
+  color: var(--w1);
+  box-shadow: inset 0 20px var(--w1), inset 0 -20px var(--w1);
+}
+
+.dogspa .facility-outer p {
+  line-height: 32px;
+  font-size: 1.125em;
+}
+
+.dogbeauty h2,
+.dogbeauty h3 {
+  color: var(--b2);
+}
+
+.dogbeauty .facility-outer {
+  background-color: var(--d4);
+}
+
+.dogbeauty .facility-outer p {
+  font-size: 1.125em;
+  line-height: 28px;
+}
+
+.dogrelax h2 {
+  color: #f6a89a;
+}
+
+.dogrelax h3 {
+  color: var(--b1);
+}
+
+.dogrelax .facility-outer {
+  background-color: #ffccc3;
+}
+
+.dogrelax .facility-outer p {
+  font-size: 1.125em;
+  line-height: 28px;
 }
 
 @media (max-width: 1220px) {
@@ -255,6 +323,13 @@
   .facility-1,
   .facility-outer {
     margin-bottom: -60px;
+  }
+  .dogfun .facility-inner p {
+    top: 115px;
+    left: 130px;
+  }
+  .facility-outer > div {
+    grid-template-columns: 440px 1fr;
   }
 }
 
@@ -323,7 +398,29 @@
   .dogfun .facility-inner {
     margin-bottom: -80px;
   }
-  .dogfun .facility-outer p {
+
+  .dogfun .facility-2 p {
+    font-size: 0.75em;
+    top: 70px;
+    left: 85px;
+    max-width: 300px;
+  }
+
+  .dogfun {
+    padding-bottom: 200px;
+  }
+
+  .dogfun .facility-outer p,
+  .dogspa .facility-outer p,
+  .dogbeauty .facility-outer p,
+  .dogrelax .facility-outer p {
     font-size: 1em;
+  }
+}
+
+@media (max-width: 445px) {
+  .dogfun .facility-2 p {
+    top: 60px;
+    left: 65px;
   }
 }
