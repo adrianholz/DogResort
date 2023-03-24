@@ -277,6 +277,30 @@
   line-height: 28px;
 }
 
+.dogpark-1,
+.dogfun-2,
+.dogspa-1,
+.dogbeauty-3,
+.dogrelax-2 {
+  animation: float 2s ease-in-out infinite;
+}
+
+.dogpark-3,
+.dogfun-1,
+.dogspa-3,
+.dogbeauty-2,
+.dogrelax-1 {
+  animation: float 3s ease-in-out infinite;
+}
+
+.dogpark-2,
+.dogfun-3,
+.dogspa-2,
+.dogbeauty-1,
+.dogrelax-3 {
+  animation: float 2.5s ease-in-out infinite;
+}
+
 @media (max-width: 1220px) {
   .facilities-inner {
     padding-bottom: 120px;
