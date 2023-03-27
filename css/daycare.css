@@ -1,0 +1,158 @@
+.daycare-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 120px 20px 40px 20px;
+}
+
+.daycare-logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.daycare-logo img {
+  max-width: 200px;
+}
+
+.daycare-logo span {
+  font-size: 2em;
+  text-transform: lowercase;
+  font-weight: 600;
+  display: block;
+  margin-top: 40px;
+}
+
+.daycare-logo h1 {
+  font-size: 6em;
+  line-height: 1em;
+  text-transform: lowercase;
+  font-weight: 700;
+  color: var(--d2);
+  margin-bottom: 40px;
+}
+
+.daycare-inner p {
+  font-size: 1.125em;
+  line-height: 1.75em;
+  max-width: 450px;
+}
+
+.daycare-inner .button {
+  color: var(--b1);
+  border-color: var(--b1);
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.daycare-inner .button:hover {
+  color: var(--w1);
+  border-color: var(--d2);
+  background-color: var(--d2);
+}
+
+.daycare-intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.daycare-main-images {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.daycare-main-images > img {
+  max-width: 360px;
+  align-self: flex-end;
+}
+
+.daycare-main-images div img {
+  max-width: 360px;
+}
+
+.daycare-main-images div {
+  position: relative;
+}
+
+.daycare-main-images div p {
+  font-size: 1em;
+  max-width: 280px;
+  color: var(--w1);
+  font-weight: 500;
+  text-align: center;
+  position: absolute;
+  top: 120px;
+  left: 40px;
+}
+
+.daycare-dec-images img {
+  max-width: 540px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.daycare-dec-images {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+@media (max-width: 1220px) {
+  .daycare-dec-images img {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 1185px) {
+  .daycare-logo h1 {
+    font-size: 5em;
+  }
+  .daycare-logo img {
+    max-width: 140px;
+  }
+}
+
+@media (max-width: 960px) {
+  .daycare-intro {
+    grid-template-columns: 1fr;
+  }
+  .daycare-inner {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 60px 20px 40px 20px;
+  }
+  .daycare-logo {
+    flex-direction: column;
+    text-align: center;
+    gap: 0;
+  }
+  .daycare-logo span {
+    margin-top: 28px;
+  }
+  .daycare-logo h1 {
+    font-size: 3.5em;
+  }
+  .daycare-page p {
+    font-size: 1em;
+  }
+  .daycare-paragraph {
+    margin-top: 0;
+  }
+  .daycare-content .button {
+    display: block;
+    margin: 40px auto 0 auto;
+    max-width: 242px;
+  }
+  .daycare-main-images > img {
+    display: none;
+  }
+  .daycare-main-images div {
+    margin-top: 50px;
+  }
+  .daycare-main-images div img {
+    width: 100%;
+  }
+  .daycare-dec-images {
+    display: none;
+  }
+}

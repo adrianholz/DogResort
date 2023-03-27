@@ -10,6 +10,7 @@
 @import url(about.css);
 @import url(facilities.css);
 @import url(team.css);
+@import url(daycare.css);
 
 :root {
   --d1: #97ca49;
