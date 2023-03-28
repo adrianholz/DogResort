@@ -1,7 +1,7 @@
 .daycare-inner {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 120px 20px 40px 20px;
+  padding: 120px 20px 0 20px;
 }
 
 .daycare-logo {
@@ -31,7 +31,8 @@
   margin-bottom: 40px;
 }
 
-.daycare-inner p {
+.daycare-inner p,
+.daycare-benefits ul li {
   font-size: 1.125em;
   line-height: 1.75em;
   max-width: 450px;
@@ -97,6 +98,78 @@
   gap: 20px;
 }
 
+.daycare-benefits {
+  width: 100%;
+  background-color: var(--d2);
+  color: var(--w1);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+  margin: 120px 0;
+}
+
+.daycare-benefits img {
+  max-width: 820px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.daycare-benefits span {
+  font-size: 3.5em;
+  font-weight: 700;
+  line-height: 52px;
+  max-width: 540px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.daycare-benefits ul {
+  list-style: unset;
+  margin-left: 20px;
+}
+
+.daycare-benefits ul li {
+  max-width: 600px;
+  margin-top: 10px;
+}
+
+.daycare-benefits div {
+  padding: 0 20px;
+}
+
+.daycare-procedure-inner {
+  padding-top: 0;
+}
+
+.daycare-decorator {
+  width: 100%;
+  max-width: 700px;
+  display: block;
+  margin: 0 auto;
+  padding-right: 140px;
+}
+
+.daycare-dec {
+  position: relative;
+  animation: float 2s ease-in-out infinite;
+}
+
+.daycare-dec span {
+  text-align: center;
+  font-size: 3em;
+  font-weight: 700;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 480px;
+  color: var(--w1);
+}
+
 @media (max-width: 1220px) {
   .daycare-dec-images img {
     max-width: 400px;
@@ -110,6 +183,10 @@
   .daycare-logo img {
     max-width: 140px;
   }
+  .daycare-benefits span {
+    font-size: 2em;
+    line-height: 38px;
+  }
 }
 
 @media (max-width: 960px) {
@@ -120,6 +197,9 @@
     max-width: 400px;
     margin: 0 auto;
     padding: 60px 20px 40px 20px;
+  }
+  .daycare-procedure-inner {
+    padding: 0 20px;
   }
   .daycare-logo {
     flex-direction: column;
@@ -132,7 +212,8 @@
   .daycare-logo h1 {
     font-size: 3.5em;
   }
-  .daycare-page p {
+  .daycare-page p,
+  .daycare-benefits ul li {
     font-size: 1em;
   }
   .daycare-paragraph {
@@ -154,5 +235,35 @@
   }
   .daycare-dec-images {
     display: none;
+  }
+  .daycare-benefits {
+    margin: 40px 0 80px 0;
+    grid-template-columns: 1fr;
+  }
+  .daycare-benefits img {
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 320px;
+  }
+  .daycare-benefits div {
+    padding: 0 20px 40px 20px;
+  }
+  .daycare-dec img {
+    max-width: 400px;
+  }
+  .daycare-dec span {
+    font-size: 1.75em;
+    top: 65px;
+  }
+}
+
+@media (max-width: 445px) {
+  .daycare-dec span {
+    font-size: 1.5em;
+    margin: 0;
+    top: 57px;
+    left: -30px;
+    right: unset;
   }
 }
