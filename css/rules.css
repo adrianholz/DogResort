@@ -1,0 +1,113 @@
+.rules-logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.rules-logo div {
+  background-color: var(--d2);
+  padding: 20px;
+  border-radius: 100%;
+}
+
+.rules-logo div img {
+  width: 60px;
+  height: 60px;
+}
+
+.rules-logo h2,
+.schedule h2 {
+  font-size: 3.5em;
+  font-weight: 700;
+  text-transform: lowercase;
+  line-height: 48px;
+}
+
+.rule {
+  margin-top: 80px;
+}
+
+.rule ul,
+.rule p {
+  list-style: square;
+  margin: 20px 0 0 20px;
+  font-size: 1.125em;
+  line-height: 32px;
+  max-width: 700px;
+}
+
+.rule p {
+  margin-left: 0;
+}
+
+.rule:nth-child(4) span {
+  display: block;
+  max-width: 700px;
+  line-height: 28px;
+  color: #a4a4a4;
+}
+
+.rule:nth-child(5) span {
+  display: block;
+  font-size: 1.25em;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.rule:nth-child(5) p {
+  margin-top: 5px;
+}
+
+.daycare-cronogram {
+  display: block;
+}
+
+.daycare-cronogram h3 {
+  font-size: 3.5em;
+  font-weight: 700;
+  text-transform: lowercase;
+  padding: 120px 20px;
+  text-align: center;
+  line-height: 64px;
+}
+
+.schedule .daycare-inner {
+  padding-top: 0;
+}
+
+.schedule p {
+  max-width: 700px;
+  margin: 30px 0 60px 0;
+}
+
+@media (max-width: 960px) {
+  .rule:nth-child(2) {
+    margin-top: 40px;
+  }
+  .rules-logo {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  .rules-logo div img {
+    width: 50px;
+    height: 50px;
+  }
+  .rules-logo h2,
+  .schedule h2 {
+    font-size: 2.5em;
+    line-height: 48px;
+    text-align: center;
+  }
+  .daycare-cronogram h3 {
+    font-size: 2.5em;
+    line-height: 42px;
+    padding: 80px 20px;
+  }
+  .schedule p,
+  .daycare-rules p {
+    font-size: 1em;
+  }
+  .rule ul li {
+    font-size: 0.9em;
+  }
+}

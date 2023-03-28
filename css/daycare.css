@@ -126,7 +126,7 @@
 }
 
 .daycare-benefits ul {
-  list-style: unset;
+  list-style: square;
   margin-left: 20px;
 }
 
@@ -170,6 +170,106 @@
   color: var(--w1);
 }
 
+.daycare-information {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin: 80px 0;
+}
+
+.daycare-information-balloon img {
+  max-width: 600px;
+}
+
+.daycare-text h2 {
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: lowercase;
+  line-height: 48px;
+}
+
+.daycare-text h2:nth-child(3) {
+  margin-top: 20px;
+}
+
+.daycare-text span {
+  display: block;
+  margin: 10px 0 0 0;
+}
+
+.daycare-information-balloon {
+  position: relative;
+  justify-self: end;
+}
+
+.daycare-information-balloon span {
+  color: #8b4b00;
+  text-transform: lowercase;
+  font-size: 2em;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: center;
+  position: absolute;
+  left: 180px;
+  top: 120px;
+}
+
+.daycare-information-balloon ul {
+  list-style: square;
+}
+
+.daycare-information-balloon ul li {
+  color: #473c2f;
+  font-size: 1.125em;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.daycare-information-balloon ul li:nth-child(1) {
+  position: absolute;
+  top: 210px;
+  left: 160px;
+}
+
+.daycare-information-balloon ul li:nth-child(2) {
+  position: absolute;
+  top: 265px;
+  left: 120px;
+}
+
+.daycare-information-balloon ul li:nth-child(3) {
+  position: absolute;
+  top: 320px;
+  left: 105px;
+}
+
+.daycare-information-balloon ul li:nth-child(4) {
+  position: absolute;
+  top: 375px;
+  left: 125px;
+}
+
+.daycare-information-balloon ul li:nth-child(5) {
+  position: absolute;
+  top: 430px;
+  left: 105px;
+}
+
+.daycare-information-balloon ul li:nth-child(6) {
+  position: absolute;
+  text-align: center;
+  top: 465px;
+  left: 135px;
+}
+
+.daycare-information-balloon span strong {
+  font-weight: 700;
+}
+
+.daycare-prerequisites {
+  display: none;
+}
+
 @media (max-width: 1220px) {
   .daycare-dec-images img {
     max-width: 400px;
@@ -186,6 +286,9 @@
   .daycare-benefits span {
     font-size: 2em;
     line-height: 38px;
+  }
+  .daycare-information-balloon {
+    transform: scale(0.9);
   }
 }
 
@@ -256,14 +359,37 @@
     font-size: 1.75em;
     top: 65px;
   }
+  .daycare-information {
+    display: block;
+  }
+  .daycare-information p {
+    font-size: 1em;
+  }
+  .daycare-information-balloon {
+    display: none;
+  }
+  .daycare-prerequisites {
+    display: block;
+    width: 100%;
+    margin-top: 40px;
+  }
+  .daycare-dec img {
+    padding: 0;
+  }
+  .daycare-dec span {
+    position: absolute;
+    left: 67px;
+    right: 0;
+    top: 60px;
+    margin-left: unset;
+    margin-right: unset;
+    width: unset;
+  }
 }
 
-@media (max-width: 445px) {
+@media (max-width: 420px) {
   .daycare-dec span {
     font-size: 1.5em;
-    margin: 0;
-    top: 57px;
-    left: -30px;
-    right: unset;
+    top: 55px;
   }
 }
