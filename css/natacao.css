@@ -32,6 +32,47 @@
   color: var(--b2);
 }
 
+.dogspa-procedure .daycare-information {
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.dogspa-procedure .daycare-information img {
+  max-width: 600px;
+}
+
+.dogspa-procedure .daycare-information ul {
+  list-style: square;
+  margin-left: 20px;
+}
+
+.dogspa-procedure .daycare-information ul li {
+  font-size: 1.125em;
+  line-height: 32px;
+}
+
+.dogspa-procedure .daycare-inner {
+  padding: 0 20px;
+}
+
+.dogspa-procedure-2 span {
+  font-size: 3em;
+  text-transform: lowercase;
+  font-weight: 700;
+  color: var(--b2);
+  display: block;
+  margin-bottom: 60px;
+  line-height: 48px;
+}
+
+.dogspa-procedure .daycare-information {
+  margin-bottom: 0;
+}
+
+.dogspa-procedure-2 .daycare-information {
+  margin: 0 0 80px 0;
+}
+
 @media (max-width: 1185px) {
   .dogspa-page .daycare-content p {
     font-size: 2em;
@@ -40,6 +81,9 @@
   }
   .hero-dogspa {
     max-width: 440px;
+  }
+  .dogspa-procedure .daycare-information img {
+    max-width: 480px;
   }
 }
 
@@ -52,5 +96,26 @@
   .hero-dogspa {
     max-width: 400px;
     width: 100%;
+  }
+  .dogspa-procedure .daycare-information img {
+    max-width: 400px;
+    width: 100%;
+    margin-top: 40px;
+  }
+  .dogspa-procedure .daycare-information ul li {
+    font-size: 1em;
+  }
+  .dogspa-procedure .daycare-information img {
+    display: none;
+  }
+  .dogspa-procedure-2 .daycare-information img {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 60px;
+  }
+  .dogspa-procedure-2 span {
+    margin-bottom: 30px;
+    font-size: 2em;
   }
 }
