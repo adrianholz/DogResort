@@ -205,6 +205,118 @@
   line-height: 52px;
 }
 
+.terapia-inner {
+  display: grid;
+  grid-template-columns: 1fr 500px;
+  gap: 40px;
+  position: relative;
+}
+
+.terapia-intro p {
+  font-size: 1.125em;
+  line-height: 32px;
+  max-width: 500px;
+  margin-top: 40px;
+}
+
+.terapia-intro p strong {
+  font-weight: 600;
+}
+
+.terapias {
+  position: relative;
+  animation: float 2s ease-in-out infinite;
+  padding-bottom: 400px;
+}
+
+.terapias img {
+  max-width: 500px;
+}
+
+.terapias span {
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: center;
+  color: var(--d6);
+  text-transform: lowercase;
+  position: absolute;
+  width: 100%;
+  max-width: 241px;
+  right: 160px;
+  top: 140px;
+}
+
+.terapias ul {
+  list-style: square;
+  color: var(--w1);
+  font-size: 1.125em;
+  font-weight: 500;
+  position: absolute;
+  top: 220px;
+  right: 205px;
+  line-height: 28px;
+}
+
+.prevent-dec-images img {
+  position: absolute;
+  max-width: 400px;
+}
+
+.prevent-dec-images img:nth-child(1) {
+  top: 430px;
+}
+
+.prevent-dec-images img:nth-child(2) {
+  top: 580px;
+  right: 460px;
+  max-width: 300px;
+}
+
+.prevent-dec-images img:nth-child(3) {
+  top: 580px;
+  right: 0;
+}
+
+.prevent-dec-images-2 {
+  display: none;
+}
+
+.terapia {
+  margin: 0 20px 80px 20px;
+}
+
+.terapias-image {
+  display: none;
+  animation: float 2s ease-in-out infinite;
+}
+
+@media (max-width: 1260px) {
+  .terapia-logo div > img {
+    width: 140px;
+  }
+  .terapia-logo div div {
+    padding: 12px 6px;
+    width: 90px;
+    border-radius: 100%;
+    top: 18px;
+    left: 19px;
+  }
+  .terapia-logo h2 {
+    font-size: 2.5em;
+    line-height: 42px;
+  }
+  .terapia-logo {
+    gap: 20px;
+  }
+  .prevent-dec-images img {
+    max-width: 340px;
+  }
+  .prevent-dec-images img:nth-child(2) {
+    right: 400px;
+  }
+}
+
 @media (max-width: 1140px) {
   .dogprevent-hero {
     display: flex;
@@ -242,6 +354,49 @@
   }
   .dogprevent-page {
     padding-bottom: 30px;
+  }
+  .terapias {
+    padding-bottom: 0;
+  }
+  .prevent-dec-images {
+    display: none;
+  }
+  .prevent-dec-images-2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    height: unset;
+    width: 100%;
+    padding: 5px 0;
+  }
+  .prevent-dec-images img {
+    position: unset;
+  }
+  .terapias-image {
+    display: block;
+    max-width: 400px;
+    width: 100%;
+  }
+  .terapias {
+    display: none;
+  }
+  .terapia-inner {
+    display: block;
+  }
+  .terapia-logo {
+    flex-direction: column;
+    text-align: center;
+    gap: 0;
+  }
+  .terapia-intro p {
+    max-width: 480px;
+    margin: 40px auto 0 auto;
+  }
+  .terapias-image {
+    margin: 40px auto;
   }
 }
 
@@ -305,6 +460,10 @@
   }
   .dogprevent-items-inner {
     transform: scale(1);
+  }
+  .terapia-intro p {
+    max-width: 400px;
+    font-size: 1em;
   }
 }
 
