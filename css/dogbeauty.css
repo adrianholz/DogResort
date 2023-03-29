@@ -1,0 +1,9 @@
+.dogbeauty-page h1 {
+  color: var(--b2);
+  line-height: 80px;
+  margin-top: 10px;
+}
+
+.dogbeauty-page .daycare-logo span {
+  color: var(--b2);
+}
