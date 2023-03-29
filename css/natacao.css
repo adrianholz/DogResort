@@ -1,0 +1,56 @@
+.dogspa-page .daycare-logo h1 {
+  color: var(--d5);
+}
+
+.dogspa-page .daycare-inner {
+  align-items: center;
+}
+
+.hero-dogspa {
+  max-width: 500px;
+  justify-self: end;
+}
+
+.dogspa-page .daycare-content p {
+  font-size: 3em;
+  color: var(--b2);
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.dogspa-benefits {
+  background-color: #b9e1f8;
+  color: var(--b2);
+}
+
+.dogspa-benefits-2 {
+  background-color: var(--d5);
+  color: var(--w1);
+}
+
+.dogspa-procedure .daycare-dec span {
+  color: var(--b2);
+}
+
+@media (max-width: 1185px) {
+  .dogspa-page .daycare-content p {
+    font-size: 2em;
+    line-height: 38px;
+    margin-top: 20px;
+  }
+  .hero-dogspa {
+    max-width: 440px;
+  }
+}
+
+@media (max-width: 960px) {
+  .dogspa-page .daycare-content p {
+    font-size: 2em;
+    text-align: center;
+    margin: 0 0 50px 0;
+  }
+  .hero-dogspa {
+    max-width: 400px;
+    width: 100%;
+  }
+}
