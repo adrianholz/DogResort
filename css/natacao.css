@@ -9,6 +9,7 @@
 .hero-dogspa {
   max-width: 500px;
   justify-self: end;
+  animation: float 2s ease-in-out infinite;
 }
 
 .dogspa-page .daycare-content p {

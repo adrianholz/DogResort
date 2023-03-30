@@ -390,6 +390,10 @@
   .facilities-content p {
     font-size: 1.25em;
   }
+  .facility-logo {
+    flex-direction: column;
+    gap: 20px;
+  }
   .facility-logo h2 {
     font-size: 0.5em;
   }

@@ -72,6 +72,14 @@
 }
 
 .daycare-main-images div {
+  transition: 0.2s ease;
+}
+
+.daycare-main-images div:hover {
+  transform: scale(1.02);
+}
+
+.daycare-main-images div {
   position: relative;
 }
 
@@ -96,6 +104,14 @@
   display: flex;
   justify-content: space-around;
   gap: 20px;
+}
+
+.daycare-dec-images img:nth-child(1) {
+  animation: float 2s ease-in-out infinite;
+}
+
+.daycare-dec-images img:nth-child(2) {
+  animation: float 2.5s ease-in-out infinite;
 }
 
 .daycare-benefits {
@@ -200,6 +216,7 @@
 .daycare-information-balloon {
   position: relative;
   justify-self: end;
+  animation: float 3s ease-in-out infinite;
 }
 
 .daycare-information-balloon span {

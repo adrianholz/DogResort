@@ -6,6 +6,11 @@
 
 .team-inner img {
   max-width: 300px;
+  transition: transform 0.2s ease;
+}
+
+.team-inner img:hover {
+  transform: scale(1.02);
 }
 
 .team-content h1,

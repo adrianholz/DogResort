@@ -9,6 +9,7 @@
 
 .hero-dogrelax {
   max-width: 530px;
+  animation: float 2s ease-in-out infinite;
 }
 
 .dogrelax-page .daycare-paragraph strong {

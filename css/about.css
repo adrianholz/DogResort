@@ -17,6 +17,7 @@
 
 .about-content img {
   max-width: 600px;
+  animation: float 2s ease-in-out infinite;
 }
 
 .about-services {
