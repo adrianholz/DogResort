@@ -291,6 +291,30 @@
   animation: float 2s ease-in-out infinite;
 }
 
+.nutrologia .terapia-logo div div {
+  width: 80px;
+  padding: 22px 34px;
+  top: 25px;
+  left: 25px;
+}
+
+.dogprevent-benefits {
+  background-color: #94a0e1;
+  color: var(--w1);
+  margin-bottom: 60px;
+}
+
+.nutrologia-care-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nutrologia-care-inner > span {
+  font-size: 1.125em;
+  line-height: 32px;
+  color: #737373;
+}
+
 @media (max-width: 1260px) {
   .terapia-logo div > img {
     width: 140px;
@@ -314,6 +338,12 @@
   }
   .prevent-dec-images img:nth-child(2) {
     right: 400px;
+  }
+  .nutrologia .terapia-logo div div {
+    width: 60px;
+    padding: 12px 24px;
+    top: 19px;
+    left: 16px;
   }
 }
 
@@ -397,6 +427,9 @@
   }
   .terapias-image {
     margin: 40px auto;
+  }
+  .nutrologia {
+    margin-bottom: 40px;
   }
 }
 
