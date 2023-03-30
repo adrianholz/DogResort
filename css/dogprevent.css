@@ -298,21 +298,108 @@
   left: 25px;
 }
 
+.veterinario {
+  margin: 0 0 80px 0;
+}
+
+.veterinario .terapia-logo div div {
+  padding: 25px 15px;
+  top: 26px;
+}
+
+.dogsenior .terapia-logo div div {
+  padding: 0;
+  top: 24px;
+  background-color: rgba(0, 0, 0, 0);
+  width: 150px;
+}
+
 .dogprevent-benefits {
   background-color: #94a0e1;
   color: var(--w1);
   margin-bottom: 60px;
 }
 
+.nutrologia-care {
+  padding-bottom: 120px;
+}
+
 .nutrologia-care-inner {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 .nutrologia-care-inner > span {
   font-size: 1.125em;
   line-height: 32px;
   color: #737373;
+}
+
+.nutrologia-care-inner .daycare-dec {
+  margin: 60px 0;
+}
+
+.nutrologia-care-info p {
+  font-size: 1.125em;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+
+.nutrologia-care-info ul {
+  list-style: square;
+  margin-left: 20px;
+  font-size: 1.125em;
+  line-height: 32px;
+}
+
+.nutrologia-care-info div {
+  display: flex;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.veterinario .terapia-inner {
+  display: block;
+}
+
+.veterinario .terapia-inner p {
+  font-size: 1.125em;
+  line-height: 32px;
+  max-width: 700px;
+  margin-top: 40px;
+}
+
+.veterinario .terapia-inner strong {
+  font-weight: 600;
+}
+
+.veterinario .terapia-inner ul {
+  list-style: square;
+  margin: 30px 0 0 20px;
+  font-size: 1.125em;
+  line-height: 32px;
+}
+
+.veterinario-images {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.veterinario-images img {
+  max-width: 400px;
+  object-fit: contain;
+}
+
+.dogsenior-info {
+  display: grid;
+  grid-template-columns: 1fr 500px;
+  gap: 40px;
+}
+
+.dogsenior-info img {
+  max-width: 500px;
 }
 
 @media (max-width: 1260px) {
@@ -344,6 +431,19 @@
     padding: 12px 24px;
     top: 19px;
     left: 16px;
+  }
+  .veterinario .terapia-logo div div {
+    padding: 20px 12px;
+    top: 17px;
+    width: 80px;
+    left: 17px;
+  }
+  .dogsenior .terapia-logo div div {
+    padding: 0;
+    top: 19px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 100px;
   }
 }
 
@@ -497,6 +597,45 @@
   .terapia-intro p {
     max-width: 400px;
     font-size: 1em;
+  }
+
+  .nutrologia-care-inner > span {
+    font-size: 1em;
+  }
+
+  .nutrologia-care-info p {
+    font-size: 1em;
+  }
+
+  .nutrologia-care-info ul {
+    font-size: 1em;
+  }
+  .nutrologia-care {
+    padding-bottom: 80px;
+  }
+  .veterinario .terapia-inner p,
+  .veterinario .terapia-inner ul {
+    font-size: 1em;
+  }
+  .terapia-inner,
+  .nutrologia-care-inner {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .veterinario-images img:nth-child(2) {
+    display: none;
+  }
+  .veterinario-images img {
+    max-width: 400px;
+    width: 100%;
+  }
+  .dogsenior-info {
+    display: block;
+  }
+  .dogsenior-info img {
+    max-width: 400px;
+    width: 100%;
+    margin-top: 40px;
   }
 }
 
