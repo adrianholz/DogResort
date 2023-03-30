@@ -149,6 +149,10 @@ main {
   display: none;
 }
 
+.slider-secondary-image {
+  display: none;
+}
+
 @media (max-width: 1185px) {
   .slider-inner h1,
   .slider-inner h2 {
@@ -217,5 +221,11 @@ main {
   }
   .slide-dogprevent .slider-inner p {
     max-width: 360px;
+  }
+  .slider-secondary-image {
+    display: unset;
+  }
+  .slider-main-image {
+    display: none;
   }
 }
