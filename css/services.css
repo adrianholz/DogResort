@@ -265,12 +265,22 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     height: unset;
     width: 100%;
+    max-width: 360px;
     margin: 0;
     position: relative;
     padding: 0;
     transform: scale(0.95);
+  }
+  .balloon:nth-child(2),
+  .balloon:nth-child(4),
+  .balloon:nth-child(6) {
+    align-self: flex-start;
+  }
+  .balloon:nth-child(3),
+  .balloon:nth-child(5) {
+    align-self: flex-end;
   }
 }

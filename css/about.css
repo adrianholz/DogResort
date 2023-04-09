@@ -99,6 +99,7 @@
 .about-description ul {
   list-style: unset;
   padding-left: 20px;
+  max-width: 580px;
 }
 
 .about-description ul li {
