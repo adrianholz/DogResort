@@ -74,6 +74,10 @@
   margin: 0 0 80px 0;
 }
 
+.hidrotherapy-benefits li {
+  max-width: 500px !important;
+}
+
 @media (max-width: 1185px) {
   .dogspa-page .daycare-content p {
     font-size: 2em;

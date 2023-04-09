@@ -119,14 +119,14 @@
   background-color: var(--d2);
   color: var(--w1);
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 540px 1fr;
   gap: 40px;
   align-items: center;
   margin: 120px 0;
 }
 
 .daycare-benefits img {
-  max-width: 820px;
+  max-width: 540px;
   width: 100%;
   height: auto;
   object-fit: cover;

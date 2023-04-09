@@ -196,6 +196,7 @@
 .dogfun .facility-outer p {
   font-size: 1.125em;
   line-height: 32px;
+  max-width: 540px;
 }
 
 .dogfun .facility-outer {
@@ -299,6 +300,10 @@
 .dogbeauty-1,
 .dogrelax-3 {
   animation: float 2.5s ease-in-out infinite;
+}
+
+.dogpark-special-p {
+  max-width: 480px !important;
 }
 
 @media (max-width: 1220px) {

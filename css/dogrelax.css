@@ -40,12 +40,13 @@
 
 .dogrelax-benefits-2 {
   background-color: var(--d3);
+  grid-template-columns: 1fr 540px;
 }
 
 .dogrelax-benefits-2 img {
   order: 2;
-  max-width: 100%;
-  max-height: 720px;
+  width: 100%;
+  max-width: 540px;
 }
 
 .dogrelax-benefits-2 {
@@ -53,17 +54,20 @@
 }
 
 .dogrelax-benefits-2 div {
-  margin: 0 80px 0 auto;
+  margin: 0 0 0 auto;
 }
 
 .routine {
   text-align: center;
   margin-bottom: 80px;
-  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
 }
 
 .routine img {
-  max-width: 300px;
+  max-width: 200px;
 }
 .routine h2 {
   font-size: 3.5em;
@@ -91,10 +95,16 @@
     width: 100%;
     max-width: 400px;
   }
+  .dogrelax-benefits-2 {
+    grid-template-columns: 1fr;
+  }
   .dogrelax-benefits-2 div {
     grid-row: 2;
   }
   .dogrelax-benefits-2 img {
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
     max-height: 320px;
   }
   .dogrelax-benefits-2 div {
@@ -118,5 +128,12 @@
   .routine p {
     font-size: 1em;
     margin-top: 20px;
+  }
+  .routine img {
+    display: none;
+  }
+  .routine {
+    display: block;
+    padding: 0 20px;
   }
 }
