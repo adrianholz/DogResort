@@ -25,6 +25,11 @@
   margin-bottom: 40px;
 }
 
+.facilities-content ul {
+  list-style: square;
+  margin-left: 20px;
+}
+
 .facilities-content p:nth-child(2),
 .facilities-content ul li {
   font-size: 1.125em;

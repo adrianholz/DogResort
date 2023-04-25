@@ -43,8 +43,8 @@ main {
   max-width: 300px;
 }
 
-.slider-inner span {
-  font-weight: 700;
+.slider-inner strong {
+  font-weight: 700 !important;
 }
 
 .slider-inner .button {
@@ -108,8 +108,7 @@ main {
   color: var(--d6);
 }
 
-.slide-dogprevent span,
-.slide-hospedagem h2 span {
+.slider-inner h2 span {
   font-weight: 500;
 }
 
@@ -120,10 +119,6 @@ main {
 .slide-dogprevent h3 {
   font-size: 1.5em;
   font-weight: 600;
-}
-
-.slide-dogprevent strong {
-  font-weight: 700;
 }
 
 .swiper-slide {

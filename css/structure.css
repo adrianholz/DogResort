@@ -40,6 +40,11 @@
   color: var(--b1);
 }
 
+.structure-content ul {
+  list-style: square;
+  margin-left: 20px;
+}
+
 .structure-content .button {
   color: var(--b1);
   border-color: var(--b1);

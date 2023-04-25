@@ -1,0 +1,43 @@
+/*
+Theme Name: DogResort
+Theme URI: https://dogresort.com.br
+Author: Adrian Holzschuh
+Author URI: https://adrianholzschuh.com
+Description: Tema criado para o website DogResort.
+Version: 1.0
+*/
+
+@import url(css/reset.css);
+@import url(css/global.css);
+@import url(css/header.css);
+@import url(css/main.css);
+@import url(css/services.css);
+@import url(css/structure.css);
+@import url(css/faq.css);
+@import url(css/contact.css);
+@import url(css/footer.css);
+@import url(css/about.css);
+@import url(css/facilities.css);
+@import url(css/team.css);
+@import url(css/daycare.css);
+@import url(css/rules.css);
+@import url(css/dogrelax.css);
+@import url(css/dogbeauty.css);
+@import url(css/natacao.css);
+@import url(css/dogprevent.css);
+@import url(css/depoimentos.css);
+@import url(css/fale-conosco.css);
+@import url(css/blog.css);
+
+:root {
+  --d1: #97ca49;
+  --d2: #ffa307;
+  --d3: #ffccc3;
+  --d4: #b9e1f8;
+  --d5: #47c8f3;
+  --d6: #1e37b8;
+  --d7: #74e0d2;
+  --w1: #faf5ef;
+  --b1: #473c2f;
+  --b2: #323d44;
+}
