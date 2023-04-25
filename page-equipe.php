@@ -47,8 +47,8 @@
   <main role="main" class="team">
     <div class="team-inner">
       <div class="team-content">
-        <h1>Equipe</h1>
-        <p>A equipe de recreação da <strong>dog</strong>resort é formada por pessoas apaixonadas por animais, profissionais respeitados, esforçados e que buscam sempre fazer o melhor para os nossos amigos cães.</p>
+        <h1><?php the_field('titulo-equipe') ?></h1>
+        <p><?php the_field('descricao-equipe') ?></p>
       </div>
       <?php
           $proprietarios = get_field('itens-proprietarios');
